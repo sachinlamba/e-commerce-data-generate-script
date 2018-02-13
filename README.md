@@ -1,7 +1,7 @@
-with this python script, anyone can generate ur sample data set from   
-https://raw.githubusercontent.com/SamTube405/Amazon-E-commerce-Data-set/master/Data-sets/amazondata_Phones_1984%2040.txt or other txt files of SamTube405 files.
+## with this python script  
+Anyone can generate ur sample data set from txt files of [SamTube405 files](https://raw.githubusercontent.com/SamTube405/Amazon-E-commerce-Data-set/master/Data-sets/amazondata_Phones_1984%2040.txt)
   
-Able to save this data --->>  
+#### Able to save this data --->>  
 
   
 ITEM 1  
@@ -33,7 +33,7 @@ Title=Amazon Fire Phone, 32GB (AT&T)
 UPC=848719035209  
 UPCList=848719035209  
   
-to this json object..->>>  
+#### to this json object..->>>  
   
 {  
       "Binding": "Electronics",  
