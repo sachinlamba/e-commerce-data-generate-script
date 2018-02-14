@@ -1,13 +1,10 @@
 import json;
-
-with open('amazondata_Phones full.txt') as f:
+#give correct file to convert to json file.
+with open('amazondata_Phones.txt') as f:
     mylines = f.read().splitlines()
     objectStart = False
     saveArrayOfJsonObject = []
-    index = 0
     for line in mylines:
-        print(index)
-        index += 1
         if(line == ""):
             objectStart = False
         if(objectStart):
@@ -19,7 +16,7 @@ with open('amazondata_Phones full.txt') as f:
         if("ITEM" in line):
             objectStart = True
             saveArrayOfJsonObject.append({})
-    print(saveArrayOfJsonObject)
+    #print(saveArrayOfJsonObject)
     json = json.dumps({"data" : saveArrayOfJsonObject});
     f = open("data.json","w")
     f.write(json)
